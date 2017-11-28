@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "styling",
+    "description": "Test app for trying out styling.",
+    "slug": "styling",
+    "privacy": "public",
+    "sdkVersion": "23.0.0",
+    "version": "0.0.2",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gijsdebeer.styling",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.gijsdebeer.styling",
+      "permissions": [ ]
+    }
+  }
+}

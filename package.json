@@ -1,0 +1,28 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js --watch",
+    "storybook": "storybook start -p 7007"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/samples": "2.1.1",
+    "exp": "^46.0.3",
+    "expo": "^23.0.0",
+    "prop-types": "^15.6.0",
+    "react": "16.0.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-23.0.0.tar.gz",
+    "react-navigation": "^1.0.0-beta.19"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.16",
+    "@storybook/addon-links": "^3.2.16",
+    "@storybook/react": "^3.2.16",
+    "@storybook/react-native": "^3.2.16",
+    "jest-expo": "^23.0.0",
+    "react-dom": "16.0.0"
+  }
+}
